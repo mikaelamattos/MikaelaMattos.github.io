@@ -1,0 +1,447 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    transition: all .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.body {
+  background: #F8EDE3;
+  overflow-x: hidden;
+  padding-left:44em ;
+  padding-right: 2em;
+}
+
+
+header{
+position: fixed;
+top:0; left:0;
+z-index: 1000;
+height:100%;
+width:35em;
+background: #FCDEC0;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+text-align: center;
+}
+
+.img-profile {
+  height:17em;
+  width:17em;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.my-name{
+font-size: 3.5em;
+color: #7D5A50;
+}
+
+.name{
+padding-top: 1em;
+font-size: 2em;
+color: #7D5A50;
+;
+}
+
+.navbar{
+width: 98%;
+}
+
+.ul{
+list-style: none;
+padding: 1em;
+}
+
+.ul, .a {
+display: block;
+padding: 0.5em;
+margin:1.5em 0;
+background: #E5B299;
+color:#7D5A50;
+font-size: 1.4em;
+border-radius: 8em;
+
+}
+
+
+.ul, .a:hover {
+color: #0d0d0d;
+background-color: #FCDEC0;
+}
+
+.home {
+display: flex;
+justify-content: center;
+flex-flow: column;
+padding: 0 15em;
+}
+
+
+.title{
+  position: absolute;
+  padding-top: 4em;
+  font-size: 2.5em;
+  color: #798777;
+}
+
+
+.title-name {
+  padding-top: 5em;
+  font-size: 5em;
+  color: #9fb199;
+}
+
+.section{
+  min-height: 100vh;
+padding:1em;
+}
+
+.span-t{
+  color: #0d0d0d;
+}
+
+.my-info {
+  font-size:2em;
+color:#0d0d0d ;
+padding: 1em 0;
+padding-top: 6em;
+line-height: 1.5em;
+text-align: justify;
+padding-bottom: 5em;
+}
+
+.button{
+ 
+  background-color: #E5B299;
+  font-size: 2em;
+  color: #eff0f3;
+  padding: 0.938rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+cursor: pointer;
+border-radius: 1em;
+  }
+  
+.button:hover{
+background-color: #A2B29F;
+color: #eff0f3;}
+
+.i{
+  padding:0 .5em;
+font-size: 1.8em;
+}
+
+.h1-aboutme{
+  padding-top: 3em;
+  font-size: 6em;
+  color: #B4846C;
+}
+
+
+.h3-about{
+  padding-top: 2em;
+  padding-bottom: 4em;
+  font-size: 2em;
+  color: #0d0d0d;
+  font-weight: normal;
+ line-height: 2em;
+ text-align: justify;
+
+}
+
+
+.button-2{
+  background-color: #D9376E;
+  font-size: 2em;
+  color: #eff0f3;
+  padding: 0.938em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+cursor: pointer;
+border-radius: 1em;
+}
+
+.button-2:hover{
+  background-color: #fdc5d7;
+  color: #eff0f3;}
+
+
+  .span-ed{
+    color: #A2B29F;
+font-size: 2em;
+  }
+
+.h3-ed{
+  padding-top: 0.375em;
+  color: #7D5A50;
+font-size: 2em;
+font-weight:bolder;
+}
+
+
+.box-ed{
+  width: 109em;
+  height: 8em;
+  border-radius: 1em;
+  padding: 1.8em;
+  box-shadow: 10px 10px 1.25em #cccccc;
+background:#F5F5F5;
+margin-bottom:1.875em;
+line-height:1.625em; 
+
+}
+
+.box-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+     
+
+.box-div{
+  width:27em;
+  margin:4em 1em;
+  padding-left: 4em;
+  border-left: .2em solid #fff;
+  }
+
+
+ .span-div{
+  font-weight: bold;
+   padding-bottom: 1em;
+  font-size: 1.3em;
+color: #B4846C;
+border-radius: 5em; 
+ }
+
+ .p-1{
+   padding-top: 1em;
+  font-size: 1.3em;
+border-radius: 5em; 
+color: #B4846C;
+ }
+
+.title-edu{
+  color: #A2B29F;
+  font-size: 6em;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+.h1-cw{
+  overflow:unset;
+  font-size: 6em;
+  padding-top: 5em;
+  color: #7D5A50;
+
+}
+
+.div-cw{
+  padding-top: 4em;
+  padding-bottom: 4em;
+  font-size: 2rem;
+  color: #0d0d0d;
+  font-weight: normal;
+ line-height: 2em;
+}
+
+
+.logo{
+  width: 8em;
+  height: auto;
+}
+
+.box-social{
+  width: 8em;
+  height: auto;
+  float: left;
+  padding: 10px;
+  color: #fff;
+  width: 25%;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.h1-cont{
+  padding-top:9em;
+  font-size: 6em;
+  color: #BDD2B6;
+}
+
+.div-work{
+  padding-top: 3em;
+  padding-bottom: 4em;
+  font-size: 2em;
+  color: #0d0d0d;
+  font-weight: normal;
+ line-height: 2em;
+}
+
+.form{
+width: 40em;
+height: auto;
+    font-size: 2em;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  margin-bottom: 6em;
+ 
+}
+
+.content{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li{
+  margin-top: 1em;
+}
+
+.label{
+  display: inline-block;
+  width: 6em;
+  text-align: right;
+}
+
+.textarea {
+
+  font: 1em sans-serif;
+  width: 18.75em;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 8px #dcdcdc;
+  border: 1px solid #8b9d88;
+}
+
+
+.button-3 {
+  margin-top: 3em;
+  background-color: #6D8B74;
+  font-size: 2rem;
+  color: #eff0f3;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+cursor: pointer;
+border-radius: 1em;
+
+}
+
+.button-3:hover{
+  background-color: #E5B299;
+}
+
+.style{
+  color: #A2B29F;
+  font-style:oblique;
+  font-weight: bold;
+}
+
+
+
+.style-2{
+  color: #6D8B74;
+  font-style:unset;
+}
+
+
+.div-speech{
+  padding-top: 1em;
+  padding-bottom: 4em;
+  font-size: 2em;
+  color: #0d0d0d;
+  font-weight: normal;
+ line-height: 2em;
+
+}
+
+
+
+@media (max-width: 1200px) {
+body{
+  font-size: 7px;
+}
+.box-container{
+  overflow: hidden;
+}
+}
+@media (max-width: 992px) {
+  body{
+    font-size: 8px;
+  }
+  .box-ed{
+    font-size: 7px;
+    width: 599px;
+    height: 80px;
+    border-radius: 6px;
+    padding: 7px;
+    box-shadow: 2px 2px 1.25px #cccccc;
+  background:#F5F5F5;
+  margin-bottom:10px;
+  line-height:19px; 
+  
+  }
+  .box-container{
+ 
+    overflow-y: scroll;
+  }
+}
+  
+
+  @media (max-width: 768px) {
+    .box-ed{
+      font-size: 7px;
+      width: 370px;
+      height: 80px;
+      border-radius: 6px;
+      padding: 7px;
+      box-shadow: 2px 2px 1.25px #cccccc;
+    background:#F5F5F5;
+    margin-bottom:10px;
+    line-height:19px; 
+    
+    }
+    body{
+      font-size: 6px;
+      margin-right: 16px;
+    }
+
+    .div-cw{
+      font-size: 12px;
+    }
+  }
+ 
+
+  @media (max-width: 576px) {
+    .box-ed{
+      font-size: 7px;
+      width: 290px;
+      height: 96px;
+      border-radius: 6px;
+      padding: 9px;
+      box-shadow: 2px 2px 1.25px #cccccc;
+    background:#F5F5F5;
+    margin-bottom:10px;
+    line-height:19px; 
+  }
+  
+ }
